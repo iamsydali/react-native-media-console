@@ -66,7 +66,7 @@ export const VideoPlayer = (props: VideoPlayerProps) => {
     disablePlayPause = false,
     disableSeekButtons = false,
     navigator,
-    rewindTime = 15,
+    rewindTime = 10,
   } = props;
 
   const mounted = useRef(false);
